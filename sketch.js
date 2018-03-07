@@ -7,7 +7,7 @@ function preload(){
 }
 
 function setup(){
-	createCanvas(windowWidth,windowHeight);
+	createCanvas(2,2);
 	let w = windowWidth/10;
 	let h = 2*w;
 	face.size(w,h);
