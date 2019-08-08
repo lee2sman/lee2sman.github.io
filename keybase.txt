@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/notapipe
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://leetusman.com
+  * I am notapipe (https://keybase.io/notapipe) on keybase.
+  * I have a public key ASCfKPQ-6C1H9xBLZiNOqsMm-VHwdYF5oGEfd4POFrqYfgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209f28f43ee82d47f7104b66234eaac326f951f0758179a0611f7783ce16ba987e0a",
+      "host": "keybase.io",
+      "kid": "01209f28f43ee82d47f7104b66234eaac326f951f0758179a0611f7783ce16ba987e0a",
+      "uid": "c63caaf2c82b03e750b9f0c11c018019",
+      "username": "notapipe"
+    },
+    "merkle_root": {
+      "ctime": 1565297978,
+      "hash": "0d977fe4148422019296e05e78484b376581c4e841101c32b12d48278dfaa614675e5065d81cf2c852cb2eeb4a823bd68127ae40e0a941683794dbc95f5a5d79",
+      "hash_meta": "f5b821dedb678755d061ca2ebb9aa02e21c0d2db9436c60a9b62ea7353a6ff28",
+      "seqno": 5974387
+    },
+    "service": {
+      "entropy": "J5fmH3bRjQX6D6jBG6ptDRyT",
+      "hostname": "leetusman.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1565297987,
+  "expire_in": 504576000,
+  "prev": "38cb83e3dae05d50fa590e07305a58090918724a0820850b442b59359ed24b30",
+  "seqno": 55,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnyj0PugtR/cQS2YjTqrDJvlR8HWBeaBhH3eDzha6mH4Kp3BheWxvYWTESpcCN8QgOMuD49rgXVD6WQ4HMFpYCQkYckoIIIULRCtZNZ7SSzDEIMsW8azsBGt15Fx6P0sWd+QFf34jmiHd6kwnrE2TZJKnAgHCo3NpZ8RAK6MOYdBHri2S6A8SHDnKf0k9/EyTSQ/CjLaHHzPyephquyBq6lFfbv8zUs/U8ph5WH7zG43uWLyXGfXBPQcFC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPpeIiYIFHF5mb55Ki3D+grSP8XXBxBKuO5KkFl1VqNqo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/notapipe
+
+==================================================================
