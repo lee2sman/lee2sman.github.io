@@ -1,0 +1,226 @@
+ body {
+  max-width: 680px;
+}
+
+h1, h4, h5, h6, a, p, ul, ol, li {
+   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+h2, h3 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li, footer ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAaCAMAAABigZc2AAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAFpJREFUeNp9jUEOwEAIAhn+/+imjbs1bC0XzQioSUAAYZs0mcVY051RbGXfFsyxibTVHXhuhXYlbuRGPbe7kz3g0wf679OuizDBdCaberLE4AsjGliD02eNugA+MQFAPqynHQAAAABJRU5ErkJggg==),auto;
+}
+
+a {
+  /* text-decoration: underline; */
+}
+
+blockquote {
+  border-left: 3px solid black;
+  font-style: normal;
+  padding-left; 50px;
+}
+
+blockquote {
+  border-left: 4px solid #black;
+  margin: 1.5em 3px;
+  padding: 0.5em 10px;
+  font-style: normal;
+}
+blockquote:before {
+  color: black;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+video {
+  max-width: 85vw;
+  width: 85%;
+  margin: 0 auto;
+}
+
+code {
+  word-wrap: break-word;
+  overflow: hidden;
+  padding: 15px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+html {
+
+background: #43C6AC;  
+background: linear-gradient(to top right, pink, #F8FFAE, #43C6AC); 
+}
+
+
+
+h1 {
+    color: black;
+    background: white  ;
+    /* text-shadow: 1px 1px 1px black; */
+}
+
+u {
+        font-size: 155%;
+        color: white !important;
+        background: #333;
+        color: black !important;
+        background: white;
+}
+
+
+strong {
+        background: white;
+        color: black !important;
+        background: #333;
+        color: white !important;
+        color: black !important;
+        background: #EEE;
+        opacity: 0.8;
+        margin: 2px;
+        padding: 1px;
+        margin: 2px;
+        padding: 1px;
+}
+
+em {
+        color: black !important;
+        display: inline;
+        font-style: normal;
+        font-style: italic;
+}
+
+a:link {
+    color: #333;
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 white;
+    font-weight: bold;
+}
+
+a:visited {
+    font-weight: bold;
+    color: #777;
+    border-bottom-color: black !important;
+    border-bottom: 0px solid white !important;
+    box-shadow: 0 0px 0 white !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration-style: dashed;
+    border-bottom-color: black !important;
+}
+
+strong em u {
+    background: #333 !important;
+    color: white !important;
+
+    background: white !important;
+    color: black !important;
+
+    letter-spacing: 6px;
+    font-size: 180%;
+    opacity: 0.7;
+    padding: 4px;
+}
+
+em u {
+    line-height: 130%;
+    background: none !important;
+    font-style: none !important;
+    text-decoration: none !important;
+    font-size: 140%;
+}
+
+
+/* Lee's Mods */
+
+a:before {
+    content: "🔗";
+    margin-right: 6px;
+}
+
+a:hover {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+h2, h3 {
+    display: inline;
+    background-color: white;
+}
+
+body {
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding: 2%;
+    max-width: 70% !important;
+    background-color: #ebfafa;
+}
+
+code {
+    background-color: lightgrey;
+}
+
+img {
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.date {
+  font-size: smaller;
+  margin-left: 2rem;
+}
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+@media only screen and (max-width: 1007px) {
+  body {
+      margin-top: 3vmin;
+      margin-bottom: 3vmin;
+      padding: 3vmin;
+      max-width: 85% !important;
+  }
+}
+
+/* PHONE */
+@media only screen and (max-width: 640px) {
+  body {
+      margin-top: 2vmin;
+      margin-bottom: 2vmin;
+      padding: 2vmin;
+      max-width: 90% !important;
+  }
+}
+

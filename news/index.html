@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>News</title>
+
+
+		<link rel="stylesheet" href="/css/new.css" />
+		<link rel="stylesheet" href="/css/vivid.css" />
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+			rel="stylesheet"
+		/>
+
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap");
+			html {
+				font-size: 1rem;
+			}
+			body,
+			a,
+			p,
+			h1,
+			h2,
+			h3 {
+				font-family: "Itim", cursive;
+			}
+			.container {
+				align-items: flex-start;
+			}
+			.hamburger {
+				font-family: "MuseoModerno", cursive;
+				background-color: white;
+				color: black;
+			}
+			li {
+				display: inline;
+			}
+			footer {
+				font-size: 1em;
+			}
+			a {
+				background-color: rgba(246, 166, 246, 0.13);
+				animation: none !important;
+			}
+			.sidenav a {
+				font-family: "MuseoModerno", cursive;
+				font-size: 2rem;
+			}
+			.hamburger {
+				font-family: "MuseoModerno", cursive;
+				  line-height: 3rem;
+				  overflow: hidden;
+			}
+			@media only screen and (max-width: 650px) {
+				p {
+					font-size: 1.6rem;
+				}
+				a {
+					font-size: 1.2rem;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<div id="mySidenav" class="sidenav">
+				<a href="/#info" onclick="toggleNav()">About 💅</a>
+				<a href="/nosebook">Nosebook 👃📓</a>
+				<a href="/projects">Projects 🧵</a>
+				<a href="/resources">Resources 📖</a>
+				<a href="/links">Links 🔗</a>
+				<a href="/news">News 🆕</a>
+			</div>
+		</nav>
+		<span class="hamburger" onclick="toggleNav()"
+			>&#9776; Lee Tusman </span
+		>
+
+		<div class="container">
+			<h1>News</h1>
+
+			<h3>October 3 - 4, 2020</h3>
+			<p>
+				I'm giving a talk on <em>One-Dimensional Dungeons</em>, part of
+				<a href="https://roguelike.club/">Roguelike Celebration</a>, Online/San
+				Francisco.
+			</p>
+
+			<h3>September 8 - 13, 2020</h3>
+			<p>
+				Xzone, A Do It Together platform for online community-making, with
+				<a href="http://daniellichtman.com/">Daniel Lichtman</a>. Part of Our
+				Networks
+				<a href="https://ournetworks.ca/"
+					>Growing Our Networks in Uncertain Times↔Places</a
+				>, Online/Toronto.
+			</p>
+
+			<h3>September 2020 - August 2021</h3>
+			<p>
+				I'll be a member of <a href="https://www.newinc.org">New Inc</a>, part
+				of their Cultural Futures track!
+			</p>
+
+			<h3>July 16 - July 23, 2020</h3>
+			<p>
+				232henley is being shown in the online exhibit
+				<em>Online Is the New IRL</em>, part of
+				<a href="https://2020.vectorfestival.org" alt="Vector Fest 2020"
+					>Vector Festival 2020</a
+				>
+				at InterAccess Online/Toronto.
+			</p>
+
+			<h3>July 15 - July 18, 2020</h3>
+			<p>
+				I am holding a <em>Virtual Engagement</em> online art project
+				<a href="https://stars.library.ucf.edu/elo2020/live/events/11/"
+					>Savage Words</a
+				>
+				for Electronic Literature Conference 2020: (un)continuity,
+				Online/University of Central Florida.
+			</p>
+
+			<h3>May 9, 2020</h3>
+			<p>
+				I'll be speaking on online art-making tools as part of
+				<a
+					href="https://processingfoundation.org/advocacy/processing-community-day-2020/processing-community-hangout"
+					>Processing Community Hangout</a
+				>, a 5 hour online event!
+			</p>
+
+			<h3>April 8 - June 30, 2020</h3>
+			<p>
+				I am a
+				<a href="https://pioneerworks.org/residency/lee-tusman/"
+					>Technology Resident
+				</a>
+				at Pioneer Works.
+			</p>
+
+			<h3>February 8, 2020</h3>
+			<p>
+				I am a co-founder and co-organizer of
+				<a href="http//processing.nyc">Processing Community Day NYC</a>, a day
+				dedicated to Art, Code and Activism. This event is supported by the
+				Department of Education, Computer Science 4 All, and held at The New
+				School.
+			</p>
+			<h3>February 1 - March 18, 2020</h3>
+			<p>
+				<i>ALSO</i>TUBES exhibition at
+				<a
+					href="https://locatearts.org/exhibitions/nashville/alsotubes"
+					alt="Unrequited Leisure"
+					>Unrequited Leisure</a
+				>
+				gallery, Nashville, TN.
+			</p>
+
+			<h3>January 2020 -> present</h3>
+			<p>
+				I am a co-organizer at
+				<a href="https://babycastles.com">Babycastles</a> art collective/art
+				space in Manhattan. I organize the
+				<a
+					href="https://www.youtube.com/playlist?list=PLJzpMnmDTJIUBNOpzI5qdPJ1cXhITBSq-"
+					>Babycastles Academy</a
+				>
+				education workshops.
+			</p>
+		</div>
+		<script>
+			let menuClosed = true;
+
+			function toggleNav() {
+				if (menuClosed) {
+					if (window.innerWidth < 640) {
+						menuW = "100vw";
+					} else {
+						menuW = "400px";
+					}
+
+					document.getElementById("mySidenav").style.width = menuW;
+					document.getElementById("main").style.marginLeft = menuW;
+				} else {
+					document.getElementById("mySidenav").style.width = "0";
+					document.getElementById("main").style.marginLeft = "0";
+				}
+				menuClosed = !menuClosed;
+			}
+		</script>
+	</body>
+</html>

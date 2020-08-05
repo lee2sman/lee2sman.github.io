@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Projects</title>
+
+		<link rel="stylesheet" href="/css/new.css" />
+		<link rel="stylesheet" href="/css/projects.css" />
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap");
+			html {
+				font-family: "MuseoModerno", cursive;
+			}
+			body {
+				background-image: linear-gradient(-45deg, #ffc796 0%, #ff6b95 100%);
+			}
+
+			.container {
+				align-items: flex-start;
+				width: 100vw;
+				height: 100vh;
+			}
+			.hamburger {
+				font-family: "MuseoModerno", cursive;
+				background-color: white;
+				color: black;
+			}
+
+			/* ALL NAVBAR STUFF */
+			.sidenav {
+				height: 100%;
+				width: 0;
+				position: fixed;
+				z-index: 1;
+				top: 0;
+				left: 0;
+				background-color: #000;
+				overflow-x: hidden;
+				transition: 0.5s;
+				padding-top: 60px;
+				font-size: 2rem;
+			}
+
+			.sidenav a {
+				padding: 8px 8px 8px 32px;
+				text-decoration: none;
+				color: #818181;
+				display: block;
+				transition: 0.3s;
+				border-radius: 0;
+				background-color: #111 !important;
+				text-align: right;
+				font-size: 1.6rem;
+				font-family: "MuseoModerno", cursive;
+			}
+
+			.sidenav a:hover {
+				color: #f1f1f1;
+			}
+
+			.sidenav .closebtn {
+				position: absolute;
+				top: 0;
+				right: 25px;
+				font-size: 36px;
+				margin-left: 50px;
+			}
+			.hamburger {
+				padding-left: 10px;
+				position: fixed;
+				z-index: 999;
+				top: 0;
+				left: 0;
+				font-size: 30px;
+				cursor: pointer;
+				background-color: white;
+				writing-mode: vertical-rl;
+				text-orientation: mixed;
+				height: 100%;
+				width: 70px;
+				font-size: 50px;
+				border-style: solid;
+			}
+			/* END NAV */
+
+			/* MEDIA QUERIES - MOVE CONTAINER TO RIGHT */
+
+			@media only screen and (max-width: 1007px) {
+				.container {
+					margin-left: 12vw;
+				}
+			}
+			@media only screen and (max-width: 640px) {
+				p,
+				a,
+				ul,
+				li {
+					font-size: 1rem;
+				}
+				.container {
+					margin-left: 24vw;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<div id="mySidenav" class="sidenav">
+				<a href="/#info" onclick="toggleNav()">About 💅</a>
+				<a href="/nosebook">Nosebook 👃📓</a>
+				<a href="/projects">Projects 🧵</a>
+				<a href="/resources">Resources 📖</a>
+				<a href="/links">Links 🔗</a>
+				<a href="/news">News 🆕</a>
+			</div>
+		</nav>
+
+		<span class="hamburger" onclick="toggleNav()"
+			>&#9776; Lee Tusman / Lee Tusman / Lee Tusman</span
+		>
+
+		<div class="container">
+			<ul>
+				web
+				<li><a href="https://notapipe.itch.io/232henley">232henley</a>,</li>
+				<li><a href="http://mess.life" alt="Messlife">Messlife</a>,</li>
+				<li><a href="http://leetusman.com/everyday/107/">Collapsed</a>,</li>
+				<li>
+					<a href="http://leetusman.com/everyday/93/">Box Scrambler I</a>,
+				</li>
+				<li>
+					<a href="http://leetusman.com/everyday/94/">Box Scrambler II</a>,
+				</li>
+				<li><a href="http://leetusman.com/everyday/103/">Where I Lived</a>,</li>
+				<li><a href="https://notapipe.itch.io/zonez88">Zonez88</a>,</li>
+				<li><a href="http://leetusman.com/everyday/58/">Self-Playing</a>,</li>
+				<li><a href="http://leetusman.com/everyday/98/">Avatar</a>,</li>
+				<li><a href="http://leetusman.com/everyday/47/">Rooms</a>,</li>
+				<li>
+					<a href="http://spam.cafe/spamcafe.html" alt="spam.cafe hypertext"
+						>Spam.cafe hypertext</a
+					>
+				</li>
+				installations
+				<li><a href="https://www.neurosos.net/">neurosOS</a>,</li>
+				<li>
+					<a href="http://leetusman.com/projects/literal_mechanical_turk.html"
+						>Literal Mechanical Turk</a
+					>,
+				</li>
+				<li>
+					<a
+						href="http://leetusman.com/projects/lost_angeles.html"
+						alt="Lost Angeles"
+						>Lost Angeles</a
+					>,
+				</li>
+				<li>
+					<a
+						href="http://leetusman.com/projects/cinema_of_unknown_youtube.html"
+						alt="Cinema of Unknown YouTube"
+						>Cinema of Unknown YouTube</a
+					>,
+				</li>
+
+				<li><a href="http://spam.cafe/" alt="Spam Cafe">spam.cafe</a>,</li>
+				<li>
+					<a
+						href="http://leetusman.com/projects/leetusman4you.html"
+						alt="LeeTusman4You Spambot"
+						>LeeTusman4You Spambot</a
+					>,
+				</li>
+				<li>
+					<a href="http://leetusman.com/projects/slowfm.html">SLOW FM</a>,
+				</li>
+				<li>
+					<a href="http://leetusman.com/projects/incognitomode.html"
+						>Incognito Mode</a
+					>,
+				</li>
+				<li>
+					<a
+						href="http://leetusman.com/projects/testimonial.html"
+						alt="Testimonials"
+						>Testimonials</a
+					>
+				</li>
+				tools
+				<li>
+					<a href="https://notapipe.itch.io/obscure-instructions"
+						>Obscure Instructions</a
+					>,
+				</li>
+				<li>
+					<a href="https://github.com/lee2sman/p5-flatgame">p5.flatgame</a>,
+				</li>
+				<li>
+					<a href="http://leetusman.com/projects/textualselfie.html"
+						>Textual Selfie Station</a
+					>,
+				</li>
+				<li><a href="http://leetusman.com/everyday/62/">Paintmaster</a>,</li>
+				<li><a href="http://printwobbler.glitch.me/">Printwobbler</a>,</li>
+				<hr />
+				Code Sketches
+				<li><a href="/everyday">All ☕</a>,</li>
+
+				<li><a href="/everyday/131">131</a>,</li>
+				<li><a href="/everyday/130">130</a>,</li>
+				<li><a href="/everyday/122">122</a>,</li>
+				<li><a href="/everyday/118">118</a>,</li>
+				<li><a href="/everyday/116">116</a>,</li>
+				<li><a href="/everyday/102">102</a>,</li>
+				<li><a href="/everyday/103">103</a>,</li>
+				<li><a href="/everyday/104">104</a>,</li>
+				<li><a href="/everyday/105">105</a>,</li>
+				<li><a href="/everyday/108">108</a>,</li>
+				<li><a href="/everyday/57">57</a>,</li>
+				<li><a href="/everyday/58">58</a>,</li>
+				<li><a href="/everyday/82">82</a>,</li>
+				<li><a href="/everyday/32">32</a>,</li>
+				<li><a href="/everyday/33">33</a>,</li>
+				<li><a href="/everyday/52">52</a>,</li>
+				<li><a href="/everyday/98">98</a>,</li>
+				<li><a href="/everyday/46">46</a>,</li>
+				<li><a href="/everyday/48">48</a>,</li>
+				<li><a href="/everyday/45">45</a>,</li>
+				<li><a href="/everyday/50">50</a>,</li>
+				<li><a href="/everyday/83">83</a>,</li>
+				<li><a href="/everyday/115">115</a>,</li>
+
+				<li><a href="/everyday/123">123</a>,</li>
+				<li><a href="/everyday/127">127</a>,</li>
+
+				<li><a href="/everyday/128">128</a>,</li>
+				<li><a href="/everyday/129">129</a>,</li>
+				<li><a href="/everyday/3">3</a>,</li>
+				<li><a href="/everyday/4">4</a>,</li>
+				<li><a href="/everyday/5">5</a>,</li>
+				<li><a href="/everyday/6">6</a>,</li>
+				<li><a href="/everyday/7">7</a>,</li>
+				<li><a href="/everyday/8">8</a>,</li>
+				<li><a href="/everyday/9">9</a>,</li>
+				<li><a href="/everyday/10">10</a>,</li>
+				<li>
+					<a href="/everyday/11">11</a>
+				</li>
+				etc...
+			</ul>
+		</div>
+		<script>
+			let menuClosed = true;
+
+			function toggleNav() {
+				if (menuClosed) {
+					if (window.innerWidth < 640) {
+						menuW = "100vw";
+					} else {
+						menuW = "400px";
+					}
+
+					document.getElementById("mySidenav").style.width = menuW;
+					document.getElementById("main").style.marginLeft = menuW;
+				} else {
+					document.getElementById("mySidenav").style.width = "0";
+					document.getElementById("main").style.marginLeft = "0";
+				}
+				menuClosed = !menuClosed;
+			}
+		</script>
+	</body>
+</html>

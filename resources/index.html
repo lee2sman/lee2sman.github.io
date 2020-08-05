@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Resources</title>
+
+		<link rel="stylesheet" href="/css/sakura.css" />
+		<link rel="stylesheet" href="/css/nose2.css" />
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap");
+			html {
+				font-family: "MuseoModerno", cursive;
+				background-image: linear-gradient(-45deg, #ffc796 0%, #ff6b95 100%);
+			}
+			body {
+				background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+			}
+			a {
+animation: none;
+			}
+
+			.container {
+				align-items: flex-start;
+			}
+			.hamburger {
+				font-family: "MuseoModerno", cursive;
+				background-color: white;
+				color: black;
+			}
+			li,
+			ul {
+				text-decoration: none;
+				list-style: none;
+			}
+
+			/* ALL NAVBAR STUFF */
+			.sidenav {
+				height: 100%;
+				width: 0;
+				position: fixed;
+				z-index: 1;
+				top: 0;
+				left: 0;
+				background-color: #000;
+				overflow-x: hidden;
+				transition: 0.5s;
+				padding-top: 60px;
+			}
+
+			.sidenav a {
+				padding: 8px 8px 8px 32px;
+				text-decoration: none;
+				color: #818181;
+				display: block;
+				transition: 0.3s;
+				border-radius: 0;
+				background-color: #111 !important;
+				text-align: right;
+				font-size: 3rem;
+				font-family: "MuseoModerno", cursive;
+			}
+
+			.sidenav a:hover {
+				color: #f1f1f1;
+			}
+
+			.sidenav .closebtn {
+				position: absolute;
+				top: 0;
+				right: 25px;
+				font-size: 36px;
+				margin-left: 50px;
+			}
+			.hamburger {
+				padding-left: 10px;
+				position: fixed;
+				z-index: 999;
+				top: 0;
+				left: 0;
+				font-size: 30px;
+				cursor: pointer;
+				background-color: white;
+				writing-mode: vertical-rl;
+				text-orientation: mixed;
+				height: 100%;
+				width: 70px;
+				font-size: 50px;
+				border-style: solid;
+			}
+			/* END NAV */
+
+			/* MEDIA QUERIES - MOVE CONTAINER TO RIGHT */
+
+			@media only screen and (max-width: 1007px) {
+				.container {
+					margin-left: 8vw;
+				}
+			}
+			@media only screen and (max-width: 640px) {
+				.container {
+					margin-left: 20vw;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<div id="mySidenav" class="sidenav">
+				<a href="/#info" onclick="toggleNav()">About 💅</a>
+				<a href="/nosebook">Nosebook 👃📓</a>
+				<a href="/projects">Projects 🧵</a>
+				<a href="/resources">Resources 📖</a>
+				<a href="/links">Links 🔗</a>
+				<a href="/news">News 🆕</a>
+			</div>
+		</nav>
+
+		<span class="hamburger" onclick="toggleNav()"
+			>&#9776; Lee Tusman / Lee Tusman / Lee Tusman</span
+		>
+		<div class="container">
+			<h1>Resources</h1>
+			<p>Tutorials, Workshops, Syllabi, Code</p>
+			<p>
+				Note that this is a collection of loose links to elsewhere on my website
+				or across the internet.
+				<strong
+					>Please check out my
+					<a href="/nosebook" alt="Nosebook">👃📓Nosebook</a> page for many more
+					articles and other writing</strong
+				>. In addition, I am a volunteer organizer at
+				<a href="https://babycastles.com" alt="Babycastles">Babycastles</a> art
+				space and organize our workshop program called Babycastles Academy,
+				<a
+					href="https://www.youtube.com/playlist?list=PLJzpMnmDTJIUBNOpzI5qdPJ1cXhITBSq-"
+					alt="Babycastles youtube"
+					>archived online</a
+				>.
+			</p>
+
+			<h3>Tutorials</h3>
+
+			<ul>
+				<li>
+					<a href="http://leetusman.com/nosebook/git-for-artists"
+						>Git For Misfits and Artists</a
+					>
+					- Spring 2020
+				</li>
+				<li>
+					<a
+						href="https://www.youtube.com/watch?v=cg7cFI4PN0A&list=PLsB2lqbKJIMZ-Gj19IXN9Rrk2DzphCvUO"
+						>How to Make a Flatgame in Unity (video)</a
+					>
+					- Spring 2020
+				</li>
+				<li>
+					<a href="http://leetusman.com/nosebook/pcd-nyc-2019-recap"
+						>How We Organized Processing Community Day NYC 2019</a
+					>
+					- Spring 2019
+				</li>
+				<li>
+					<a
+						href="https://opensource.com/article/19/11/pyradio"
+						alt="Pyradio: An Open Source Alternative for Internet Radio>Pyradio: An Open Source Alternative for Open Radio"
+						>Pyradio: An Open Source Alternative for Internet Radio</a
+					>
+					- article for Opensource.com - Spring 2019
+				</li>
+				<li>
+					<a
+						href="https://opensource.com/article/20/3/mac-linux"
+						alt="Why I switched from Mac to Linux"
+						>Switching from Mac to Linux</a
+					>
+					- article for Opensource.com - Spring 2019
+				</li>
+				<li>
+					<a
+						href="http://signalculture.org/cookbookvol2.html"
+						alt="Signal Culture Cookbook vol 2"
+					>
+						DIY Personal Digital Assistant or Clippy Yourself
+					</a>
+					- Signal Culture Cookbook Volume 2 - Fall 2019
+				</li>
+
+				<li>
+					<a
+						href="http://leetusman.com/intermediate-programming/posts/create-your-own-api-with-express/"
+						>Create an API with Express</a
+					>
+					- Spring 2018
+				</li>
+				<li>
+					<a
+						href="http://leetusman.com/intermediate-programming/posts/intro-to-alexa/"
+						>Intro to Alexa Skills</a
+					>
+					- Spring 2018
+				</li>
+				<li>
+					<a
+						href="https://github.com/lee2sman/intermediate-programming/blob/master/classes/week7.md"
+						>Creating a simple twitter bot with NodeJS</a
+					>
+					- Spring 2018
+				</li>
+				<li>
+					<a
+						href="http://leetusman.com/intermediate-programming/posts/intro-to-git-and-github/"
+						>Intro to Git and GitHub</a
+					>
+					- Spring 2018
+				</li>
+				<li>
+					<a
+						href="http://leetusman.com/intermediate-programming/posts/intro-to-command-line/"
+						>Intro to Linux and the command line</a
+					>
+					- Spring 2018
+				</li>
+				<li>
+					<a
+						href="http://leetusman.com/intermediate-programming/posts/github-pages-workflow/"
+						>Publish your website with GitHub pages</a
+					>
+					- Spring 2018
+				</li>
+				<li>
+					<a
+						href="http://leetusman.com/intermediate-programming/posts/html-css-js-dom/"
+						>What is HTML, CSS, Javascript and the DOM</a
+					>
+					- Spring 2018
+				</li>
+				<li>
+					<a
+						href="http://leetusman.com/intermediate-programming/posts/javascript-reintroduction/"
+						>Javascript, a brief re-introductory overview</a
+					>
+					- Spring 2018
+				</li>
+				<li>
+					<a
+						href="http://leetusman.com/intermediate-programming/posts/working-with-data-json/"
+						>Working with JSON data - The Basics</a
+					>
+					- Spring 2018
+				</li>
+				<li>
+					<a
+						href="http://leetusman.com/intermediate-programming/posts/editors-and-ides/"
+						>Editors and IDEs</a
+					>
+					- Spring 2018
+				</li>
+				<li>
+					<a
+						href="http://leetusman.com/intermediate-programming/posts/google-fonts/"
+						>Using Google Fonts in your sites</a
+					>
+					- Spring 2018
+				</li>
+				<li>
+					<a href="http://leetusman.com/nosebook/working-with-institutions"
+						>How small organizations and artists can work with big
+						institutions</a
+					>
+					- notes from a talk by Mark Allen of Machine Project at Common Field
+					Convening - 2017
+				</li>
+				<li>
+					<a href="https://github.com/justanothersystem/tools"
+						>A Directory of Web-based Drawing Tools</a
+					>
+					- Spring 2017
+				</li>
+				<li>
+					<a href="https://github.com/lee2sman/rasp-pi-slideshow"
+						>Creating A Slideshow / Digital Picture Frame Using Raspberry Pi</a
+					>
+					- Winter 2015
+				</li>
+			</ul>
+
+			<h3>Syllabi</h3>
+			<ul>
+				<li>
+					<a
+						href="http://leetusman.com/tiny_computing/"
+						alt="Special Projects in Tiny Computing"
+						>Special Projects in Tiny Computing</a
+					>
+					- Purchase College New Media - Fall 2019
+				</li>
+				<li>
+					<a href="https://github.com/lee2sman/Scripting_Spring2019"
+						>Scripting For the Web</a
+					>
+					- Purchase College, Math/CS - Spring 2019
+				</li>
+				<li>
+					<a href="https://github.com/lee2sman/p4va-spring2019"
+						>Programming For Visual Artists</a
+					>
+					- Purchase College New Media - Spring 2019
+				</li>
+				<li>
+					<a href="https://github.com/lee2sman/dmsc_fall2018"
+						>Drawing, Moving, Seeing Code</a
+					>
+					- Purchase College New Media - Fall 2018
+				</li>
+				<li>
+					<a href="https://github.com/lee2sman/intermediate-programming"
+						>Intermediate Programming</a
+					>
+					- Woodbury University - Spring 2018
+				</li>
+				<li>
+					<a href="https://github.com/lee2sman/reading-and-writing-the-web/"
+						>Reading And Writing The Web</a
+					>
+					- University of Southern California - Spring 2018
+				</li>
+				<li>
+					<a href="https://github.com/lee2sman/IML400"
+						>Creative Coding For The Web</a
+					>
+					- University of Southern California - Fall 2017
+				</li>
+				<li>
+					<a href="https://github.com/lee2sman/IML300"
+						>Reading and Writing The Web</a
+					>
+					- University of Southern California - Fall 2017
+				</li>
+				<li>
+					<a href="https://github.com/lee2sman/LMU182"
+						>Programming Creative Applications</a
+					>
+					- Loyola Marymount University - Fall 2017
+				</li>
+				<li>
+					<a href="http://classes.dma.ucla.edu/Summer17/161/">Network Media</a>
+					- UCLA - Summer 2017
+				</li>
+				<li>
+					<a href="https://github.com/lee2sman/PDA203WebMedia">Web Media</a> -
+					Moore College Of Art - Spring 2015
+				</li>
+			</ul>
+
+			<h3>
+				Tools and more
+			</h3>
+
+			<ul>
+				<li>
+					<a
+						href="https://notapipe.itch.io/obscure-instructions"
+						alt="Obscure Instructions"
+						>Obscure Instructions</a
+					>
+					- creative prompts to instigate creative activity
+				</li>
+				<li>
+					<a href="http://leetusman.com/nosebook/you-must-make-games.html"
+						>Beginner-friendly tools for creating videogames</a
+					>, post
+				</li>
+				<li>
+					<a
+						href="http://weird-game-tools.glitch.me/"
+						alt="Weird Game-making Tools"
+						>Weird Game-Making Tools</a
+					>, a list
+				</li>
+				<li>
+					<a
+						href="http://weird-drawing-tools.glitch.me/"
+						alt="Weird Drawing Tools"
+						>Weird Drawing Tools</a
+					>, a list
+				</li>
+				<li>
+					<a href="https://github.com/lee2sman/Strangerfy"
+						>Strangerfy, a framework for overlaying p5js (processing) art
+						projects on webpages</a
+					>
+				</li>
+				<li>
+					<a href="http://leetusman.com/nosebook/chatbots-a-reading-list.html"
+						>Chatbots: Principles, Methods, Ethics - a Noncomprehensive Reading
+						List</a
+					>
+				</li>
+				<li>
+					<a
+						href="
+     
+     http://leetusman.com/nosebook/appropriation-reading-list.html"
+						>Appropriation, A Reading List</a
+					>
+				</li>
+				<li>
+					<a href="https://github.com/lee2sman/p5-flatgame" alt="p5.flatgame"
+						>p5.flatgame</a
+					>
+					- starter template for creating a flatgame in p5.js
+				</li>
+				<li>
+					<a href="http://printwobbler.glitch.me/" alt="PrintWobbler"
+						>Printwobbler</a
+					>
+					- alpha version of an experimental flyer and poster-maker
+				</li>
+				<li>
+					<a href="leetusman.com/Typetype/"
+						>Typetype, a dead-simple web-based themed writing pad</a
+					>
+				</li>
+			</ul>
+
+			<h3>Workshops</h3>
+			<ul>
+				<li>
+					<a href="https://github.com/lee2sman/RadicalDIYComputing_workshop"
+						>Radical DIY Computing</a
+					>, with Echo Theohar - Side Street Projects - Winter 2017
+				</li>
+				<li>
+					<a
+						href="https://github.com/lee2sman/ITPCampSessionNotes/blob/master/IntroToTwine_ITPCamp.md"
+						>Intro To Twine - Branching Narrative</a
+					>
+					- NYU ITP Camp - Summer 2015
+				</li>
+				<li>
+					<a
+						href="https://github.com/lee2sman/ITPCampSessionNotes/blob/master/DivinationAndChanceOperations_ITPCamp.md"
+						>Divination and Chance Operations</a
+					>
+					- NYU ITP Camp - Summer 2015
+				</li>
+				<li>
+					<a
+						href="https://github.com/lee2sman/ITPCampSessionNotes/blob/master/ReplaceYourselfWithABot.md"
+						>Intro to Twitter Bots</a
+					>
+					- NYU ITP Camp - Summer 2015
+				</li>
+				<li>
+					<a
+						href="https://github.com/lee2sman/ITPCampSessionNotes/blob/master/IntroToCommandLine_ITPCamp.md"
+						>Intro To the Command Line</a
+					>
+					- NYU ITP Camp - Summer 2015
+				</li>
+			</ul>
+
+			<h3>Code</h3>
+			<p><a href="http://github.com/lee2sman">Lee2sman</a> on GitHub</p>
+		</div>
+
+		<script>
+			let menuClosed = true;
+
+			function toggleNav() {
+				if (menuClosed) {
+					if (window.innerWidth < 640) {
+						menuW = "100vw";
+					} else {
+						menuW = "400px";
+					}
+
+					document.getElementById("mySidenav").style.width = menuW;
+					document.getElementById("main").style.marginLeft = menuW;
+				} else {
+					document.getElementById("mySidenav").style.width = "0";
+					document.getElementById("main").style.marginLeft = "0";
+				}
+				menuClosed = !menuClosed;
+			}
+		</script>
+	</body>
+</html>

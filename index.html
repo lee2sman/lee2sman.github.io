@@ -1,594 +1,99 @@
-
 <!DOCTYPE html>
-<html>
-    
-<!--
-                __                                             _
- _ __   ___    / _|_ __ __ _ _ __ ___   _____      _____  _ __| | _____
-| '_ \ / _ \  | |_| '__/ _` | '_ ` _ \ / _ \ \ /\ / / _ \| '__| |/ / __|
-| | | | (_) | |  _| | | (_| | | | | | |  __/\ V  V / (_) | |  |   <\__ \
-|_| |_|\___/  |_| |_|  \__,_|_| |_| |_|\___| \_/\_/ \___/|_|  |_|\_\___/
+<html lang='en'>
+  <!-- 
+    Shoutouts to: Luis, chattr, Alaska, Xin, Jerome, Tilly, Lauren, aarón, Sejo, TWISTER, joe, robin, The Bus, danielp73, rgs, indoor tagging crew, canalswans, lucky dragons, GT, bbcastles, twenty-xx, my students, lil b(erlin), flux, and anyone reading the source code
+    peace to: stole_life, jsun mccarty, mike schiller
 
-                                   _
- _ __   ___    _ __ ___   __ _ ___| |_ ___ _ __ ___
-| '_ \ / _ \  | '_ ` _ \ / _` / __| __/ _ \ '__/ __|
-| | | | (_) | | | | | | | (_| \__ \ ||  __/ |  \__ \
-|_| |_|\___/  |_| |_| |_|\__,_|___/\__\___|_|  |___/
-    
---> 
-	<head>
-		<title>Lee Tusman</title>
-		<link rel="icon" href="images/favicon.png">
-		<meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Comfortaa" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
+    You are the only person to ever get this message. I appreciate you!
+  -->
+  <script>
+    //Total number of background image files
+    bgTotal=96;
+  </script>
 
-  <script src="libraries/p5.min.js"></script>
-  <script src="libraries/p5.dom.min.js"></script>
+  <head>
+      <title> 😂 Lee Tusman</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="The website of artist, programmer, educator Lee Tusman">
+      <link id="favicon" rel="icon" href="favicon.ico" type="image/x-icon">
+      <!-- replace this with downloaded file from github! -->
+      <style>
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+</style>
+<link rel='stylesheet' href='/css/new.css'>
+  </head>
+  <body>
 
-  <script src="sketch.js"></script>
+    <nav>
 
-	</head>
-
-	<body>
-		<div class="navbar">
-			<nav>
-	    		<ul>
-					<li style="display:none;"><a href="#end-nav" class="skip-navigation">Skip Navigation</a></li>
-							<li>Lee Tusman</li>
-	        		<li class="active">Projects</li>
-		        	<li><a href="about.html">About</a></li>
-		        	<li><a href="resources.html">Resources</a></li>
-	    		</ul>
-			</nav>
-		</div>
-
-		<span id="end-nav"></span>
-
-		<div class="container">
-			<div id="works">
-
-
-				<div class="project">
-						<a href="projects/incognitomode.html">
-						<img src="images/incognitomode_thumb.jpg">
-						<div class="overlay">
-							<div class="overlay_title">
-								Lost Angeles
-							</div>
-							<div class="overlay_meta">
-								2017
-							</div>
-							<div class="overlay_description">
-								An alternative reality game - played IRL and via mobile phone
-							</div>
-						</div>
-					</a>
-				</div>
-
-
-				<div class="project">
-
-						<a href="http://mess.life">
-
-
-						<img src="images/messlife_thumb.jpg">
-
-						<div class="overlay">
-							<div class="overlay_title">
-								Messlife
-							</div>
-							<div class="overlay_meta">
-								2017
-							</div>
-							<div class="overlay_description">
-									A virtual DIY space in the tradition of warehouse artspaces and alternative venues
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="project">
-
-						<a href="http://neurosos.net">
-
-
-						<img src="images/neurosOS_thumb.jpg">
-
-						<div class="overlay">
-							<div class="overlay_title">
-								neurosOS
-							</div>
-							<div class="overlay_meta">
-								2016
-							</div>
-							<div class="overlay_description">
-								A lifestyle brand and dispensary for virtual digital drugs
-							</div>
-						</div>
-					</a>
-				</div>
-
-
-				<div class="project">
-
-						<a href="projects/leebot.html">
-
-
-						<img src="images/leebot_thumb.jpg">
-
-						<div class="overlay">
-							<div class="overlay_title">
-									LeeBot
-							</div>
-							<div class="overlay_meta">
-								2016
-							</div>
-							<div class="overlay_description">
-									Doppelganger Managemnt System, SpamBot and Tools
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="project">
-
-						<a href="http://artstuff.wtf">
-
-
-						<img src="images/artstuffwtf_thumb.jpg">
-
-						<div class="overlay">
-							<div class="overlay_title">
-									Artstuff.wtf
-							</div>
-							<div class="overlay_meta">
-								2016 - 2018
-							</div>
-							<div class="overlay_description">
-								Minimal website listing page for DIY art (and etc) events in Los Angeles
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="project">
-						<a href="projects/lost_angeles.html">
-						<img src="images/lostangeles_thumb.jpg">
-						<div class="overlay">
-							<div class="overlay_title">
-								Lost Angeles
-							</div>
-							<div class="overlay_meta">
-								2016
-							</div>
-							<div class="overlay_description">
-								A flaneur in the virtual Lost Angeles
-							</div>
-						</div>
-					</a>
-				</div>
-
-
-				<div class="project">
-						<a href="http://room21.org">
-						<img src="images/room21_thumb.jpg">
-						<div class="overlay">
-							<div class="overlay_title">
-								Room 21
-							</div>
-							<div class="overlay_meta">
-								2016
-							</div>
-							<div class="overlay_description">
-								A performance project with Jace Clayton at The Barnes Foundation
-							</div>
-						</div>
-					</a>
-				</div>
-
-
-				<div class="project">
-						<a href="http://spam.cafe">
-						<img src="images/spamcafe_thumb.jpg">
-						<div class="overlay">
-							<div class="overlay_title">
-								Spam.cafe
-							</div>
-							<div class="overlay_meta">
-								2016
-							</div>
-							<div class="overlay_description">
-								A solo exhibition of gallery and web-based works
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="project">
-						<a href="projects/testimonial.html">
-						<img src="images/testimonial_thumb.jpg">
-						<div class="overlay">
-							<div class="overlay_title">
-								Testimonial
-							</div>
-							<div class="overlay_meta">
-								2016
-							</div>
-							<div class="overlay_description">
-								Testimonials from satisfied patrons
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="project">
-						<a href="projects/literal_mechanical_turk.html">
-						<img src="images/literalmechanicalturk_thumb.jpg">
-						<div class="overlay">
-							<div class="overlay_title">
-								Literal Mechanical Turk
-							</div>
-							<div class="overlay_meta">
-								2016
-							</div>
-							<div class="overlay_description">
-								A contemporary update to a classic hoax
-							</div>
-						</div>
-					</a>
-				</div>
-
-
-				<div class="project">
-						<a href="http://spam.cafe/spamcafe.html">
-						<img src="images/spamcafehypertext_thumb.jpg">
-						<div class="overlay">
-							<div class="overlay_title">
-								Spam.cafe (hypertext edition)
-							</div>
-							<div class="overlay_meta">
-								2016
-							</div>
-							<div class="overlay_description">
-								An exhibition as playable hypertext adventure
-							</div>
-						</div>
-					</a>
-				</div>
-
-
-				<div class="project">
-						<a href="projects/cinema_of_unknown_youtube.html">
-						<img src="images/unknownyoutube_thumb.jpg">
-						<div class="overlay">
-							<div class="overlay_title">
-								Cinema Of Unknown Youtube
-							</div>
-							<div class="overlay_meta">
-								2016
-							</div>
-							<div class="overlay_description">
-								A film screening of unpopular (zero view) videos
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="project">
-						<a href="projects/test_patterns.html">
-						<img src="images/test_patterns_thumb.jpg">
-						<div class="overlay">
-							<div class="overlay_title">
-								Test Patterns
-							</div>
-							<div class="overlay_meta">
-								2015
-							</div>
-							<div class="overlay_description">
-								Exhibition of artist test patterns and issues of standards, agency and ethics
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="project">
-						<a href="http://newhive.com/leedotpng/christo-and-jeanclaude2-png">
-						<img src="images/glitchchristo_thumb.jpg">
-						<div class="overlay">
-							<div class="overlay_title">
-								Glitch Christo
-							</div>
-							<div class="overlay_meta">
-								2016
-							</div>
-							<div class="overlay_description">
-								Code Sketch
-							</div>
-						</div>
-					</a>
-				</div>
-
-			<div class="project">
-						<a href="https://github.com/lee2sman/PonTheRoad">
-						<img src="images/pontheroad_thumb.jpg">
-						<div class="overlay">
-							<div class="overlay_title">
-								Pon The Road
-							</div>
-							<div class="overlay_meta">
-								2016
-							</div>
-							<div class="overlay_description">
-								Code Sketch - Generated great american novel
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="project">
-							<a href="http://festival.games.ucla.edu/2015/">
-							<img src="images/festival_thumb.jpg">
-							<div class="overlay">
-								<div class="overlay_title">
-									Game Art Festival 2015
-								</div>
-								<div class="overlay_meta">
-									2015
-								</div>
-								<div class="overlay_description">
-									Curated Festival - I curated the 2015 Game Art Festival at the Hammer Museum in Los Angeles
-								</div>
-							</div>
-						</a>
-					</div>
-
-				<div class="project">
-							<a href="projects/leetusman4you.html">
-							<img src="images/leespambot_thumb.jpg">
-							<div class="overlay">
-								<div class="overlay_title">
-									LeeTusman4You
-								</div>
-								<div class="overlay_meta">
-									2015
-								</div>
-								<div class="overlay_description">
-									A spambot designed to send hand-selected spam
-								</div>
-							</div>
-						</a>
-					</div>
-
-				<div class="project">
-							<a href="http://annieberman.net/installation/#/utopiavr/">
-							<img src="images/utopia_thumb.jpg">
-							<div class="overlay">
-								<div class="overlay_title">
-										Utopia 1.0 VR
-								</div>
-								<div class="overlay_meta">
-									2015
-								</div>
-								<div class="overlay_description">
-								With filmaker Annie Berman to adapt her film to VR and an exhibit
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="project">
-							<a href="http://newhive.com/2sman/turning-me-on">
-							<img src="images/turningmeon_thumb.jpg">
-							<div class="overlay">
-								<div class="overlay_title">
-										Turning Me On
-								</div>
-								<div class="overlay_meta">
-									2015
-								</div>
-								<div class="overlay_description">
-									Online curated exhibition of replacement startup sounds
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="project">
-							<a href="projects/heavily_scripted.html">
-							<img src="images/heavily_scripted_thumb.jpg">
-							<div class="overlay">
-								<div class="overlay_title">
-										Heavily Scripted: Generative Art And Bots
-								</div>
-								<div class="overlay_meta">
-									2014
-								</div>
-								<div class="overlay_description">
-									Exhibition of procedurally-generative artworks, bots, audio and software
-								</div>
-							</div>
-						</a>
-					</div>
-
-
-					<div class="project">
-							<a href="projects/limits_and_demonstrations.html">
-							<img src="images/limitsanddemonstrations_thumb.jpg">
-							<div class="overlay">
-								<div class="overlay_title">
-									Limits and Demonstrations exhibition
-								</div>
-								<div class="overlay_meta">
-									2013
-								</div>
-								<div class="overlay_description">
-									A posthumous exhibition of pioneering media artist Lula Chamberlain
-								</div>
-							</div>
-						</a>
-					</div>
-
-
-					<div class="project">
-							<a href="projects/punk_arcade.html">
-							<img src="images/punkarcade_thumb.jpg">
-							<div class="overlay">
-								<div class="overlay_title">
-									Punk Arcade
-								</div>
-								<div class="overlay_meta">
-									2012 - 2014
-								</div>
-								<div class="overlay_description">
-									A traveling DIY games exhibit and workshop
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="project">
-							<a href="projects/alicia_wnderland.html">
-							<img src="images/aliciawnderland_thumb.jpg">
-							<div class="overlay">
-								<div class="overlay_title">
-									Alicia Wnderland
-								</div>
-								<div class="overlay_meta">
-									2014
-								</div>
-								<div class="overlay_description">
-									A tweeted version of Alice In Wonderland translated from Esperanto
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="project">
-							<a href="projects/hiddencity.html">
-							<img src="images/hiddencity_thumb.jpg">
-							<div class="overlay">
-								<div class="overlay_title">
-									Hidden City
-								</div>
-								<div class="overlay_meta">
-									2013
-								</div>
-								<div class="overlay_description">
-									8 curated exhibits and projects presented in historic infrastructure across Philadelphia
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="project">
-							<a href="http://wikiartleaks.tumblr.com">
-							<img src="images/wikiartleaks_thumb.jpg">
-							<div class="overlay">
-								<div class="overlay_title">
-									WikiArtLeaks
-								</div>
-								<div class="overlay_meta">
-									2014
-								</div>
-								<div class="overlay_description">
-									Important modern and contemporary art straight to your browser
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="project">
-							<a href="http://ashgreyseafoam.com">
-							<img src="images/ashgreyseafoam_thumb.jpg">
-							<div class="overlay">
-								<div class="overlay_title">
-									Ashgreyseafoam
-								</div>
-								<div class="overlay_meta">
-									2014
-								</div>
-								<div class="overlay_description">
-									An internet breath of fresh air
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="project">
-							<a href="projects/slowfm.html">
-							<img src="images/slowfm_thumb.jpg">
-							<div class="overlay">
-								<div class="overlay_title">
-										SLOW FM
-								</div>
-								<div class="overlay_meta">
-									2014
-								</div>
-								<div class="overlay_description">
-									Temporary FM and online microstation dedicated to experimental slow music
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="project">
-							<a href="projects/phoning_it_in.html">
-							<img src="images/phoning_thumb.jpg">
-							<div class="overlay">
-								<div class="overlay_title">
-										Phoning It In
-								</div>
-								<div class="overlay_meta">
-									2012 - 2013
-								</div>
-								<div class="overlay_description">
-									Exhibition of contemporary art from Indonesia
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="project">
-							<a href="projects/flashflood.html">
-							<img src="images/flashflood_thumb.gif">
-							<div class="overlay">
-								<div class="overlay_title">
-										Flash Fl00d
-								</div>
-								<div class="overlay_meta">
-									2012
-								</div>
-								<div class="overlay_description">
-									Curated, Distributed exhibition and workshops from USB dead drops
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="project">
-							<a href="projects/textualselfie.html">
-							<img src="images/textualselfie_thumb.gif">
-							<div class="overlay">
-								<div class="overlay_title">
-									Textual Selfie Station
-								</div>
-								<div class="overlay_meta">
-									2014
-								</div>
-								<div class="overlay_description">
-									Software to generate live ascii video based on google search of subjects
-								</div>
-							</div>
-						</a>
-					</div>
-
+    <div id="mySidenav" class="sidenav">
+  <a href='#info' onclick='toggleNav()' >About 💅</a>
+  <a href='/nosebook'>Nosebook 👃📓</a>
+  <a href='/projects'>Projects 🧵</a>
+  <a href='/resources'>Resources 📖</a>
+  <a href='/links'>Links 🔗</a>
+  <a href='/news'>News 🆕</a>
 </div>
-		</div>
-        <a href="http://leetusman.com/nosebook"><img class="nose" src="images/nosebook_small.jpg"></a>
-        <footer>
-            Artwork/Writing: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC 4</a><br>
-            Software: <a href="https://choosealicense.com/licenses/gpl-3.0/">GPL GNU v3</a>
-        </footer>
-	</body>
+    
+    </nav>
+
+    <span class='hamburger' onclick='toggleNav()'>&#9776; Lee Tusman / Lee Tusman / Lee Tusman</span>
+
+    <div id='main'>
+
+      <div id='hero' onclick='changeHero()'>
+      </div>
+
+      <div class='container'>
+
+      <a name="info"></a>
+	<div class='item text'>
+	  <p>Lee Tusman 👽 is a New York-based new media 🎨💻 artist and educator interested in the application of the radical ethos of collectives 👩‍👩‍👦 👨‍👨‍👧‍👧 and DIY culture 🧷  to the creation of, aesthetics, and open-source distribution methods 🖨️ of digital culture. He works in code ⌨️, collage ✂️, sound 🎶 and text 📝. His artistic output includes installations 🧯, interactive media 📑, video art 📹, experimental games 🎮, sound art 🔊, websites 🌐, bots 🤖 and micro-power radio stations📡. His work has been shown at museums 🏛️, galleries 🖼️, artist-run spaces 🏚️ and virtual environments 🛸. He studied at Brandeis University and received his MFA at UCLA in Design Media Arts. He is Assistant Professor 🏫 of New Media and Computer Science at <a href='https://purchase.edu' alt='Purchase College'>Purchase College</a>.
+	  </p>
+	  <p>
+	  Lee is an organizer with <a href='https://babycastles.com/' alt='Babycastles'>Babycastles</a>, a NYC-based collective fostering and amplifying diverse voices in videogame culture as well as a collaborator with artist-run community <a href='http://www.fluxfactory.org/' alt='Flux Factory'>Flux Factory</a>. He co-founded <a href='https://processing.nyc/' alt='Processing Community Day NYC'>Processing Community Day NYC</a>. He is a past organizer at <a href='https://hiddencityphila.org/' alt='Hidden City Philadelphia'>Hidden City Philadelphia</a>, <a href='https://www.littleberlin.org/' alt='Little Berlin'>Little Berlin</a> and <a href='https://www.kchungradio.org/' alt='KCHUNG Radio'>KCHUNG Radio</a> and associated with <a href='http://www.universalresearch.group' alt='Universal Research Group'>Universal Research Group</a>. He is currently artist-in-resident at <a href='https://pioneerworks.org/technology/' alt='Pioneer Works'>Pioneer Works</a>.
+	  </p>
+	  <p>You can find him on <a href='https://twitter.com/2sman2sman' alt='twitter'>Twitter</a>, <a href='https://www.instagram.com/leetusman/' alt='instagram'>Instagram</a>, <a href='https://github.com/lee2sman' alt='GitHub'>GitHub</a> and elsewhere. Or send an <a href="mailto:leetusman@gmail.com">email</a>.</p>
+	</div>
+
+	<!-- MORE BLOCKS COULD BE ADDED BELOW -->
+	<!--
+	<div class='item photo'>
+	  <p>example</p> 
+	</div>
+	-->
+
+      </div>
+    </div>
+
+<script>
+  window.onload = function(){ changeHero() };
+
+let menuClosed = true;
+
+function toggleNav(){
+  if (menuClosed){
+    if (window.innerWidth < 640){
+      menuW = '100vw';
+    } else {
+      menuW = '400px';
+    }
+
+    document.getElementById('mySidenav').style.width = menuW;
+    document.getElementById('main').style.marginLeft= menuW;
+  } else {
+    document.getElementById('mySidenav').style.width = '0';
+    document.getElementById('main').style.marginLeft= '0';
+  }
+  menuClosed=!menuClosed;
+}
+
+function changeHero() {
+  var pic = Math.floor((Math.random()*(bgTotal+1))); //set in globals at the top, we add 1 because of math floor
+ var biggie = document.getElementById('hero');
+    biggie.style.backgroundImage = 'url(images/bg/' + pic + '.jpg)';
+}
+</script>
+  </body>
 </html>
