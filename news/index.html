@@ -1,86 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- ============================================================================================-->
+	<!-- Using the minimal css framework: http://github.com/oxalorg/sakura -->
+	<!-- JOIN THE DARK SIDE -->
+	<!-- ============================================================================================-->
 
+	<head>
+		<!-- Config -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Information -->
 		<title>News</title>
 
-
-		<link rel="stylesheet" href="/css/new.css" />
-		<link rel="stylesheet" href="/css/vivid.css" />
-
+		<!-- Assets -->
 		<link
-			href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswal:wght@400;700&display=swap"
 			rel="stylesheet"
 		/>
 
+		<link rel="stylesheet" href="/css/normalize.css" />
+		<link id="sakura-css" rel="stylesheet" href="/css/sakura-ink.css" async />
 		<style>
-			@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap");
-			html {
-				font-size: 1rem;
+			* {
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				font-family: "Oswal";
 			}
-			body,
-			a,
-			p,
+
+			@media screen and (min-width: 800px) {
+				body {
+					font-size: 2.2rem;
+				}
+			}
+
+			blockquote {
+				margin-left: 0px;
+			}
+
 			h1,
 			h2,
-			h3 {
-				font-family: "Itim", cursive;
+			h3,
+			h4,
+			h5,
+			h6 {
+				font-weight: 700;
+				font-family: "Playfair Display", serif;
+				letter-spacing: 5px;
+				text-transform: uppercase;
+				margin-bottom: 2rem;
 			}
-			.container {
-				align-items: flex-start;
+
+			h1 {
+				text-align: center;
 			}
-			.hamburger {
-				font-family: "MuseoModerno", cursive;
-				background-color: white;
-				color: black;
+
+			main {
+				margin-top: 5rem;
 			}
-			li {
-				display: inline;
+
+			.tag-container {
+				display: flex;
+				justify-content: start;
+				margin-bottom: 3rem;
+				flex-wrap: wrap;
 			}
-			footer {
-				font-size: 1em;
-			}
-			a {
-				background-color: rgba(246, 166, 246, 0.13);
-				animation: none !important;
-			}
-			.sidenav a {
-				font-family: "MuseoModerno", cursive;
-				font-size: 2rem;
-			}
-			.hamburger {
-				font-family: "MuseoModerno", cursive;
-				  line-height: 3rem;
-				  overflow: hidden;
-			}
-			@media only screen and (max-width: 650px) {
-				p {
-					font-size: 1.6rem;
-				}
-				a {
-					font-size: 1.2rem;
-				}
+
+			.tag {
+				border: 1px solid #333333;
+				border-radius: 24px;
+				margin-right: 8px;
+				background-color: #ffffff;
+				display: inline-block;
+				padding: 4px 12px;
+				margin-bottom: 8px;
+				font-size: 0.9em;
+				color: #000000;
+				cursor: pointer;
 			}
 		</style>
 	</head>
-	<body>
-		<nav>
-			<div id="mySidenav" class="sidenav">
-				<a href="/#info" onclick="toggleNav()">About 💅</a>
-				<a href="/nosebook">Nosebook 👃📓</a>
-				<a href="/projects">Projects 🧵</a>
-				<a href="/resources">Resources 📖</a>
-				<a href="/links">Links 🔗</a>
-				<a href="/news">News 🆕</a>
-			</div>
-		</nav>
-		<span class="hamburger" onclick="toggleNav()"
-			>&#9776; Lee Tusman </span
-		>
 
-		<div class="container">
-			<h1>News</h1>
+	<body>
+		<header>
+			<nav>
+				[<a class="sakura-fade no-border" href="/#info">about</a>,
+				<a class="sakura-fade no-border" href="/projects/"> projects</a>,
+				<a class="sakura-fade no-border" href="/resources/">resources</a>,
+				<a class="sakura-fade no-border" href="/links/"> links</a>,
+				<a class="sakura-fade no-border" href="/news/"> news</a>,
+				<a class="sakura-fade no-border" href="/nosebook/"> blog</a>]
+				<a
+					class="sakura-blossom no-border"
+					href="/"
+					id="switch-theme"
+					style="float:right;"
+					>🤷</a
+				>
+			</nav>
+		</header>
+		<main>
+			<article class="page">
+				<div style="min-height:300px;">
+					<h1>News</h1>
+
+
 
 			<h3>October 3 - 4, 2020</h3>
 			<p>
@@ -93,7 +121,7 @@
 			<p>
 				Xzone, A Do It Together platform for online community-making, with
 				<a href="http://daniellichtman.com/">Daniel Lichtman</a>. Part of Our
-				Networks
+				Networks'
 				<a href="https://ournetworks.ca/"
 					>Growing Our Networks in Uncertain Times↔Places</a
 				>, Online/Toronto.
@@ -173,26 +201,18 @@
 				>
 				education workshops.
 			</p>
-		</div>
+
+
+				</div>
+			</article>
+		</main>
+
 		<script>
-			let menuClosed = true;
-
-			function toggleNav() {
-				if (menuClosed) {
-					if (window.innerWidth < 640) {
-						menuW = "100vw";
-					} else {
-						menuW = "400px";
-					}
-
-					document.getElementById("mySidenav").style.width = menuW;
-					document.getElementById("main").style.marginLeft = menuW;
-				} else {
-					document.getElementById("mySidenav").style.width = "0";
-					document.getElementById("main").style.marginLeft = "0";
-				}
-				menuClosed = !menuClosed;
-			}
+			console.log(
+				"Hello. You are the only person to have discovered this. ^_^"
+			);
+			console.log("   ");
+			console.log("Message me at lee@artistsandhackers.org");
 		</script>
 	</body>
 </html>

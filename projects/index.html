@@ -20,6 +20,7 @@
 				align-items: flex-start;
 				width: 100vw;
 				height: 100vh;
+				margin-left: 2vmin !important;
 			}
 			.hamburger {
 				font-family: "MuseoModerno", cursive;
@@ -27,98 +28,41 @@
 				color: black;
 			}
 
-			/* ALL NAVBAR STUFF */
-			.sidenav {
-				height: 100%;
-				width: 0;
-				position: fixed;
-				z-index: 1;
-				top: 0;
-				left: 0;
-				background-color: #000;
-				overflow-x: hidden;
-				transition: 0.5s;
-				padding-top: 60px;
-				font-size: 2rem;
-			}
-
-			.sidenav a {
-				padding: 8px 8px 8px 32px;
-				text-decoration: none;
-				color: #818181;
-				display: block;
-				transition: 0.3s;
-				border-radius: 0;
-				background-color: #111 !important;
-				text-align: right;
-				font-size: 1.6rem;
-				font-family: "MuseoModerno", cursive;
-			}
-
-			.sidenav a:hover {
-				color: #f1f1f1;
-			}
-
-			.sidenav .closebtn {
-				position: absolute;
-				top: 0;
-				right: 25px;
-				font-size: 36px;
-				margin-left: 50px;
-			}
-			.hamburger {
-				padding-left: 10px;
-				position: fixed;
-				z-index: 999;
-				top: 0;
-				left: 0;
-				font-size: 30px;
-				cursor: pointer;
-				background-color: white;
-				writing-mode: vertical-rl;
-				text-orientation: mixed;
-				height: 100%;
-				width: 70px;
-				font-size: 50px;
-				border-style: solid;
-			}
-			/* END NAV */
-
-			/* MEDIA QUERIES - MOVE CONTAINER TO RIGHT */
-
 			@media only screen and (max-width: 1007px) {
-				.container {
-					margin-left: 12vw;
+				nav a {
+					font-size: medium;
 				}
 			}
-			@media only screen and (max-width: 640px) {
-				p,
-				a,
-				ul,
+
+			@media only screen and (max-width: 670px) {
+				nav a {
+					font-size: x-small;
+				}
 				li {
 					font-size: 1rem;
-				}
-				.container {
-					margin-left: 24vw;
 				}
 			}
 		</style>
 	</head>
 	<body>
-		<nav>
-			<div id="mySidenav" class="sidenav">
-				<a href="/#info" onclick="toggleNav()">About 💅</a>
-				<a href="/nosebook">Nosebook 👃📓</a>
-				<a href="/projects">Projects 🧵</a>
-				<a href="/resources">Resources 📖</a>
-				<a href="/links">Links 🔗</a>
-				<a href="/news">News 🆕</a>
-			</div>
-		</nav>
-
-		<span class="hamburger" onclick="toggleNav()"
-			>&#9776; Lee Tusman / Lee Tusman / Lee Tusman</span
-		>
+		<header>
+			<nav>
+				[<a class="sakura-fade no-border" href="/#info">about</a>,
+				<a class="sakura-fade no-border" href="/projects/"> projects</a>,
+				<a class="sakura-fade no-border" href="/resources/">resources</a>,
+				<a class="sakura-fade no-border" href="/links/"> links</a>,
+				<a class="sakura-fade no-border" href="/news/"> news</a>,
+				<a class="sakura-fade no-border" href="/nosebook/"> blog</a>]
+				<a
+					class="sakura-blossom no-border"
+					href="/"
+					id="switch-theme"
+					style="float:right;"
+				>
+					🧪
+				</a>
+			</nav>
+		</header>
 
 		<div class="container">
 			<ul>
@@ -230,10 +174,8 @@
 				<li><a href="/everyday/50">50</a>,</li>
 				<li><a href="/everyday/83">83</a>,</li>
 				<li><a href="/everyday/115">115</a>,</li>
-
 				<li><a href="/everyday/123">123</a>,</li>
 				<li><a href="/everyday/127">127</a>,</li>
-
 				<li><a href="/everyday/128">128</a>,</li>
 				<li><a href="/everyday/129">129</a>,</li>
 				<li><a href="/everyday/3">3</a>,</li>
@@ -244,31 +186,9 @@
 				<li><a href="/everyday/8">8</a>,</li>
 				<li><a href="/everyday/9">9</a>,</li>
 				<li><a href="/everyday/10">10</a>,</li>
-				<li>
-					<a href="/everyday/11">11</a>
-				</li>
+				<li><a href="/everyday/11">11</a></li>
 				etc...
 			</ul>
 		</div>
-		<script>
-			let menuClosed = true;
-
-			function toggleNav() {
-				if (menuClosed) {
-					if (window.innerWidth < 640) {
-						menuW = "100vw";
-					} else {
-						menuW = "400px";
-					}
-
-					document.getElementById("mySidenav").style.width = menuW;
-					document.getElementById("main").style.marginLeft = menuW;
-				} else {
-					document.getElementById("mySidenav").style.width = "0";
-					document.getElementById("main").style.marginLeft = "0";
-				}
-				menuClosed = !menuClosed;
-			}
-		</script>
 	</body>
 </html>

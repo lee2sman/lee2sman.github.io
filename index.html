@@ -1,99 +1,164 @@
 <!DOCTYPE html>
-<html lang='en'>
-  <!-- 
+<html lang="en">
+	<!-- 
     Shoutouts to: Luis, chattr, Alaska, Xin, Jerome, Tilly, Lauren, aarón, Sejo, TWISTER, joe, robin, The Bus, danielp73, rgs, indoor tagging crew, canalswans, lucky dragons, GT, bbcastles, twenty-xx, my students, lil b(erlin), flux, and anyone reading the source code
     peace to: stole_life, jsun mccarty, mike schiller
 
-    You are the only person to ever get this message. I appreciate you!
   -->
-  <script>
-    //Total number of background image files
-    bgTotal=96;
-  </script>
+	<script>
+		//Total number of background image files
+		bgTotal = 96;
+	</script>
 
-  <head>
-      <title> 😂 Lee Tusman</title>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="The website of artist, programmer, educator Lee Tusman">
-      <link id="favicon" rel="icon" href="favicon.ico" type="image/x-icon">
-      <!-- replace this with downloaded file from github! -->
-      <style>
-@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
-</style>
-<link rel='stylesheet' href='/css/new.css'>
-  </head>
-  <body>
+	<head>
+		<title>😂 Lee Tusman</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta
+			name="description"
+			content="The website of artist, programmer, educator Lee Tusman"
+		/>
+		<link id="favicon" rel="icon" href="favicon.ico" type="image/x-icon" />
+		<!-- 86 foogle -->
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap");
+		</style>
+		<link rel="stylesheet" href="/css/new.css" />
+		<style>
+			header {
+				background-color: black;
+			}
+			nav {
+				position: static;
+				box-sizing: border-box;
+				padding: 3vmin;
+				margin: 0;
+				width: 100vw;
+				font-size: 36px; /* fallback */
+				font-size: 3vw;
+			}
+			nav a {
+				padding: 1vmin;
+				margin: 0;
+			}
+			.container {
+				margin-left: 0;
+			}
 
+			@media only screen and (max-width: 670px) {
+				nav a {
+					font-size: x-small;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<!--
     <nav>
-
     <div id="mySidenav" class="sidenav">
-  <a href='#info' onclick='toggleNav()' >About 💅</a>
+  <a href='/' onclick='toggleNav()' >Home 👀</a>
+  <a href='/#info' onclick='toggleNav()' >About 💅</a>
   <a href='/nosebook'>Nosebook 👃📓</a>
   <a href='/projects'>Projects 🧵</a>
   <a href='/resources'>Resources 📖</a>
   <a href='/links'>Links 🔗</a>
   <a href='/news'>News 🆕</a>
 </div>
-    
-    </nav>
+</nav>
 
-    <span class='hamburger' onclick='toggleNav()'>&#9776; Lee Tusman / Lee Tusman / Lee Tusman</span>
+   
 
-    <div id='main'>
+		   <span class='hamburger' onclick='toggleNav()'>&#9776; Lee Tusman / Lee Tusman / Lee Tusman</span> -->
 
-      <div id='hero' onclick='changeHero()'>
-      </div>
+		<header>
+			<nav>
+				[<a class="sakura-fade no-border" href="/#info">about</a>,
+				<a class="sakura-fade no-border" href="/projects/"> projects</a>,
+				<a class="sakura-fade no-border" href="/resources/">resources</a>,
+				<a class="sakura-fade no-border" href="/links/"> links</a>,
+				<a class="sakura-fade no-border" href="/news/"> news</a>,
+				<a class="sakura-fade no-border" href="/nosebook/"> blog</a>]
+				<a class="sakura-blossom no-border" href="/" style="float:right;">
+					🤯
+				</a>
+			</nav>
+		</header>
 
-      <div class='container'>
+		<div id="main">
+			<div id="hero" onclick="changeHero()"></div>
 
-      <a name="info"></a>
-	<div class='item text'>
-	  <p>Lee Tusman 👽 is a New York-based new media 🎨💻 artist and educator interested in the application of the radical ethos of collectives 👩‍👩‍👦 👨‍👨‍👧‍👧 and DIY culture 🧷  to the creation of, aesthetics, and open-source distribution methods 🖨️ of digital culture. He works in code ⌨️, collage ✂️, sound 🎶 and text 📝. His artistic output includes installations 🧯, interactive media 📑, video art 📹, experimental games 🎮, sound art 🔊, websites 🌐, bots 🤖 and micro-power radio stations📡. His work has been shown at museums 🏛️, galleries 🖼️, artist-run spaces 🏚️ and virtual environments 🛸. He studied at Brandeis University and received his MFA at UCLA in Design Media Arts. He is Assistant Professor 🏫 of New Media and Computer Science at <a href='https://purchase.edu' alt='Purchase College'>Purchase College</a>.
-	  </p>
-	  <p>
-	  Lee is an organizer with <a href='https://babycastles.com/' alt='Babycastles'>Babycastles</a>, a NYC-based collective fostering and amplifying diverse voices in videogame culture as well as a collaborator with artist-run community <a href='http://www.fluxfactory.org/' alt='Flux Factory'>Flux Factory</a>. He co-founded <a href='https://processing.nyc/' alt='Processing Community Day NYC'>Processing Community Day NYC</a>. He is a past organizer at <a href='https://hiddencityphila.org/' alt='Hidden City Philadelphia'>Hidden City Philadelphia</a>, <a href='https://www.littleberlin.org/' alt='Little Berlin'>Little Berlin</a> and <a href='https://www.kchungradio.org/' alt='KCHUNG Radio'>KCHUNG Radio</a> and associated with <a href='http://www.universalresearch.group' alt='Universal Research Group'>Universal Research Group</a>. He is currently artist-in-resident at <a href='https://pioneerworks.org/technology/' alt='Pioneer Works'>Pioneer Works</a>.
-	  </p>
-	  <p>You can find him on <a href='https://twitter.com/2sman2sman' alt='twitter'>Twitter</a>, <a href='https://www.instagram.com/leetusman/' alt='instagram'>Instagram</a>, <a href='https://github.com/lee2sman' alt='GitHub'>GitHub</a> and elsewhere. Or send an <a href="mailto:leetusman@gmail.com">email</a>.</p>
-	</div>
+			<div class="container">
+				<a name="info"></a>
+				<div class="item text">
+					<p>
+						Lee Tusman 👽 is a New York-based new media 🎨💻 artist and educator
+						interested in the application of the radical ethos of collectives 👩‍👩‍👦
+						👨‍👨‍👧‍👧 and DIY culture 🧷 to the creation of, aesthetics, and
+						open-source distribution methods 🖨️ of digital culture. He works in
+						code ⌨️, collage ✂️, sound 🎶 and text 📝. His artistic output
+						includes installations 🧯, interactive media 📑, video art 📹,
+						experimental games 🎮, sound art 🔊, websites 🌐, bots 🤖 and
+						micro-power radio stations📡. His work has been shown at museums 🏛️,
+						galleries 🖼️, artist-run spaces 🏚️ and virtual environments 🛸. He
+						studied at Brandeis University and received his MFA at UCLA in
+						Design Media Arts. He is Assistant Professor 🏫 of New Media and
+						Computer Science at
+						<a href="https://purchase.edu" alt="Purchase College"
+							>Purchase College</a
+						>.
+					</p>
+					<p>
+						Lee is an organizer with
+						<a href="https://babycastles.com/" alt="Babycastles">Babycastles</a
+						>, a NYC-based collective fostering and amplifying diverse voices in
+						videogame culture as well as a collaborator with artist-run
+						community
+						<a href="http://www.fluxfactory.org/" alt="Flux Factory"
+							>Flux Factory</a
+						>. He co-founded
+						<a href="https://processing.nyc/" alt="Processing Community Day NYC"
+							>Processing Community Day NYC</a
+						>. He is a past organizer at
+						<a
+							href="https://hiddencityphila.org/"
+							alt="Hidden City Philadelphia"
+							>Hidden City Philadelphia</a
+						>,
+						<a href="https://www.littleberlin.org/" alt="Little Berlin"
+							>Little Berlin</a
+						>
+						and
+						<a href="https://www.kchungradio.org/" alt="KCHUNG Radio"
+							>KCHUNG Radio</a
+						>.
+					</p>
+					<p>
+						You can find him on
+						<a href="https://twitter.com/2sman2sman" alt="twitter">Twitter</a>,
+						<a href="https://www.instagram.com/leetusman/" alt="instagram"
+							>Instagram</a
+						>, <a href="https://github.com/lee2sman" alt="GitHub">GitHub</a> and
+						elsewhere. Or send an
+						<a href="mailto:leetusman@gmail.com">email</a>.
+					</p>
+				</div>
 
-	<!-- MORE BLOCKS COULD BE ADDED BELOW -->
-	<!--
-	<div class='item photo'>
-	  <p>example</p> 
-	</div>
-	-->
+			</div>
+		</div>
 
-      </div>
-    </div>
+		<script>
+			window.onload = function() {
+				changeHero();
+			};
+			function changeHero() {
+				var pic = Math.floor(Math.random() * (bgTotal + 1)); //set in globals at the top, we add 1 because of math floor
+				var biggie = document.getElementById("hero");
+				biggie.style.backgroundImage = "url(images/bg/" + pic + ".jpg)";
+			}
 
-<script>
-  window.onload = function(){ changeHero() };
-
-let menuClosed = true;
-
-function toggleNav(){
-  if (menuClosed){
-    if (window.innerWidth < 640){
-      menuW = '100vw';
-    } else {
-      menuW = '400px';
-    }
-
-    document.getElementById('mySidenav').style.width = menuW;
-    document.getElementById('main').style.marginLeft= menuW;
-  } else {
-    document.getElementById('mySidenav').style.width = '0';
-    document.getElementById('main').style.marginLeft= '0';
-  }
-  menuClosed=!menuClosed;
-}
-
-function changeHero() {
-  var pic = Math.floor((Math.random()*(bgTotal+1))); //set in globals at the top, we add 1 because of math floor
- var biggie = document.getElementById('hero');
-    biggie.style.backgroundImage = 'url(images/bg/' + pic + '.jpg)';
-}
-</script>
-  </body>
+			console.log(
+				"You are the only person to ever get this message. I appreciate you!"
+			);
+		</script>
+	</body>
 </html>
