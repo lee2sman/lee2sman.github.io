@@ -8,7 +8,8 @@ Participants in this workshop will create their own D.I.T. (“Do It Together”
 
 ## Link
 
-[Xzone](http://xzone.glitch.me/) on Glitch
+- [Xzone](http://xzone.glitch.me/) on Glitch - choose an avatar and name and join in
+- [its code on Glitch.com's server](https://glitch.com/edit/#!/xzone) - *sign into Glitch.com and then click Remix in the top right to make your own*
 
 ### Slides
 
