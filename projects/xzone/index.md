@@ -6,6 +6,10 @@ Participants in this workshop will create their own D.I.T. (“Do It Together”
 
 ![Xzone screenshot](xzone.png)
 
+### Slides
+
+[pdf](https://raw.githubusercontent.com/lee2sman/lee2sman.github.io/master/projects/xzone/xzone-slides.pdf)
+
 ## Our Plan
 
 - Introduce ourselves
@@ -20,3 +24,23 @@ Participants in this workshop will create their own D.I.T. (“Do It Together”
   - sounds
   - code
 - occupy the xzone
+
+### Tools
+
+#### Image
+- [100px cam](http://leetusman.com/everyday/145/) - Lee's quick 100pixel camera, exports as png
+- [Remove Background](https://www.remove.bg/) - remove backgrounds of images simply
+- ezgif [sprite sheet cutter](https://ezgif.com/sprite-cutter)
+- [Flickr Creative Commons search](https://www.flickr.com/search/?text=&license=2%2C3%2C4%2C5%2C6%2C9)
+
+#### Audio
+- [Freesound](https://freesound.org/) - free / creative commons sound effects and samples
+- [Free Music Archive](https://www.freemusicarchive.org/search) - free / creative commons music
+- [jsfxr](https://sfxr.me/) - make 8bit sound effects
+
+
+### Web platform
+
+- [Anticapitalist Software License](https://anticapitalist.software/)
+- [Neocities](https://neocities.org/browse) - inspiration?
+- [Likelike](https://glitch.com/~likelike) on Glitch
