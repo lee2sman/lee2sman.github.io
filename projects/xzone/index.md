@@ -11,6 +11,57 @@ Participants in this workshop will create their own D.I.T. (“Do It Together”
 - [Xzone](http://xzone.glitch.me/) on Glitch - choose an avatar and name and join in
 - [its code on Glitch.com's server](https://glitch.com/edit/#!/xzone) - *sign into Glitch.com and then click Remix in the top right to make your own*
 
+### Infrastructure
+
+##### Code
+
+This is a fork of Likelike, a DIY space in Pittsburgh, PA, USA as well as a virtual space! It also borrows organizational ideas and some code from Everest Pipkin's [Steam Tunnels](http://steam-tunnels.glitch.me/) fork of Likelike which simplifies some of the code.
+
+#### Make it your own
+
+*See tools section for ways to make this easier.*
+
+##### Change Avatars
+
+1. Remove backgrounds. 
+2. Create a spritesheet. (100pixels by 100pixels for each avator , multiplied by however many avatars you have. e.g. 5 avatars is 500 pixels wide by 100 pixels high spritesheet)
+3. We used Lee's 100pixel camera, the background remover and the spritesheet maker (*see tools!*).
+4. Inside the file ```public > client.js``` we changed the number of avatars to match the participants in our workshop. It's currently line 50, but in case that changes, look for the line ```var AVATARS = 10;``` and change the number to match how many avatars you have on your spritesheet! Or just leave this alone. If you know how to work with this, you can change the default size of your sprites here as well.
+
+##### Change the entry and chat sounds section
+
+1. Record your own audio
+2. Or download free sounds
+3. Or use an 8bit sound maker (see *tools* section)
+4. Previous code experience? Change the audio file names in client.js. No code experience? Change your own sound file names to match the previous soundfile names!
+
+##### Change rooms
+
+1. Rooms are 512pixels x 343 pixels hardcoded. We used the free open-source software [Krita](https://krita.org/en/) to modify some images we had taken or found.
+2. You can change the name of the room image files inside data.js OR if you aren't a programmer you can simply replace our room names with your own image file sizes.
+
+##### Where image and sound files are located
+
+We are using Everest Pipkin's idea to store image and sound files on GitHub. Not only is this free, but it allows us to host all files in a single directory, and reduces storage needs on Glitch.com.
+
+The path of our files are located at 
+
+```
+https://danielp7.github.io/like-style-assets
+```
+
+This process is admittedly not the most beginner-friendly since it requires some ability to use GitHub. Our recommendations for beginners is to just sign in and use the Github.com interface to do everything.
+
+If you want to use a similar infrastructure, you can:
+
+1. Fork our [repo](https://github.com/danielp73/like-style-assets) by clicking on fork in the top right. (Must be logged in).
+2. Change the images and/or sound files here. You will have to click *commit* to save.
+3. When done with all this, make it live on the internet as its own page. Click on Settings. Scroll down to GitHub Pages. Click Source button and choose *master* (or other branch name you've specified) and click save. If you scroll down again it will give you the URL where your site is live.
+4. Back on glitch.com you can open ```public > client.js``` and on (currently) line 72 you can change the URL: ```var ASSETS_FOLDER = "https://danielp73.github.io/like-style-assets/github_assets/";``` to match your own.
+5. Phew!
+
+Have suggestions for how we can explain this better? Or other suggestions? Please get in touch via Lee's [email](https://leetusman.com/#info) or [twitter](https://twitter.com/2sman2sman).
+
 ### Slides
 
 [pdf](https://raw.githubusercontent.com/lee2sman/lee2sman.github.io/master/projects/xzone/xzone-slides.pdf)
