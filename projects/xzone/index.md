@@ -60,3 +60,42 @@ Participants in this workshop will create their own D.I.T. (“Do It Together”
 #### rooms
 
 - 512pixels x 343 pixels
+
+## Notes from our workshop 
+
+**This is a free-associative list of references from participants in the Xzone workshop during Our Networks conference 2020. Thank you to everyone who joined us!**
+
+### References 
+
+*collected from workshop participants (thank you!)*
+
+#### IRL references:
+
+- [CHAZ/CHOP info](https://en.wikipedia.org/wiki/Capitol_Hill_Autonomous_Zone)
+- Experimental universities like [Rochdale College](https://en.wikipedia.org/wiki/Rochdale_College)
+
+#### virtual references
+
+- [SWGBBO](https://fak.ovh/)  
+*notes: a group of Finnish musicians hacked Habbo hotel and made their own version of it. you can make your own rooms and characters and chat etc. They've been throwing great concerts there. You can register with a fake email if you want, there is no verification.*
+
+- [The Palace](https://en.wikipedia.org/wiki/The_Palace_(computer_program))
+- [The Psychology of Avatars and Graphical Space](https://web.archive.org/web/20180314004652/http://truecenterpublishing.com/psycyber/psyav.html) --*on Wayback Machine*
+
+
+- [Likelike Online](https://github.com/molleindustria/likelike-online) on GitHub
+- video [demo](https://vimeo.com/426868920/c2ae1a7293) on Vimeo.
+
+- [Eigengrau](https://glitch.com/edit/#!/eigengrau) - *similar technical infrastructure - Javascript, socket.io, p5js, made by Craig Fahner*
+
+- [BrowserQuest](https://github.com/browserquest/BrowserQuest) - *multiplayer game environment*
+
+
+- [Doomsday Supper Club](https://doomsdaysupperclub-ournetworks.glitch.me/)
+- *"One cool thing the Doomsday Supper Club fork did was add audio commands, some that only worked in certain rooms, it was really cool"*
+
+### Chat Topics
+
+- *"how spaces/architecture affects people and communities. both in local physical spaces, and cyberspaces.. there's a concept/practice called "Psychogeographies" from Guy Debord that mixes the experience of exploration with the conscious understanding of how we meander though cities and spaces and what effect that has on our lives."*
+
+- for TAZ: I really like the format of festival/conference style events that still retain a community of communities along with the autonomy. There's some music festivals like Fusion and smaller volunteer festivals. Chaos Communication Congress is centered around the TAZ with a community/educational focus and is in a community of community little diy village format. note: [CCC is online this year](https://events.ccc.de/)
