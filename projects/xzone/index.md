@@ -43,13 +43,15 @@ Participants in this workshop will create their own D.I.T. (“Do It Together”
 - [jsfxr](https://sfxr.me/) - make 8bit sound effects
 
 
-### Web platform
+#### Web platform
 
 - [Anticapitalist Software License](https://anticapitalist.software/)
 - [Neocities](https://neocities.org/browse) - inspiration?
 - [Likelike](https://glitch.com/~likelike) on Glitch
 
-#### Dimensions
+### Asset Dimensions
+
+*at this time, these are hardcoded numbers*
 
 #### avatars
 
@@ -58,5 +60,3 @@ Participants in this workshop will create their own D.I.T. (“Do It Together”
 #### rooms
 
 - 512pixels x 343 pixels
-
-hardcoded!
