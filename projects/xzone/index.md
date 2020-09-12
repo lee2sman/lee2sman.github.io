@@ -6,6 +6,10 @@ Participants in this workshop will create their own D.I.T. (“Do It Together”
 
 ![Xzone screenshot](xzone.png)
 
+## Link
+
+[Xzone](http://xzone.glitch.me/) on Glitch
+
 ### Slides
 
 [pdf](https://raw.githubusercontent.com/lee2sman/lee2sman.github.io/master/projects/xzone/xzone-slides.pdf)
@@ -28,9 +32,9 @@ Participants in this workshop will create their own D.I.T. (“Do It Together”
 ### Tools
 
 #### Image
-- [100px cam](http://leetusman.com/everyday/145/) - Lee's quick 100pixel camera, exports as png
+- [100px cam](https://leetusman.com/everyday/145/) - Lee's quick 100pixel camera, exports as png
 - [Remove Background](https://www.remove.bg/) - remove backgrounds of images simply
-- ezgif [sprite sheet cutter](https://ezgif.com/sprite-cutter)
+- [sprite sheet maker](https://spritesheet.org/)  
 - [Flickr Creative Commons search](https://www.flickr.com/search/?text=&license=2%2C3%2C4%2C5%2C6%2C9)
 
 #### Audio
@@ -44,3 +48,15 @@ Participants in this workshop will create their own D.I.T. (“Do It Together”
 - [Anticapitalist Software License](https://anticapitalist.software/)
 - [Neocities](https://neocities.org/browse) - inspiration?
 - [Likelike](https://glitch.com/~likelike) on Glitch
+
+#### Dimensions
+
+#### avatars
+
+- 100pixels x 100pixels
+
+#### rooms
+
+- 512pixels x 343 pixels
+
+hardcoded!
