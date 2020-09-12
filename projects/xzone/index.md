@@ -38,7 +38,7 @@ This is a fork of Likelike, a DIY space in Pittsburgh, PA, USA as well as a virt
 ##### Change rooms
 
 1. Rooms are 512pixels x 343 pixels hardcoded. We used the free open-source software [Krita](https://krita.org/en/) to modify some images we had taken or found.
-2. You can change the name of the room image files inside data.js OR if you aren't a programmer you can simply replace our room names with your own image file sizes.
+2. You can change the name of the room image files inside data.js OR if you aren't a programmer you can simply replace our room names with your own image files.
 
 ##### Where image and sound files are located
 
