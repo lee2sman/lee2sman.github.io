@@ -4,7 +4,7 @@
 	src: url(/assets/font/MimoidVF.woff2);
 }
 @font-face {
-        font-family: Roboto;
+	font-family: Roboto;
 	src: url(/assets/font/Roboto-Regular.woff2);
 }
 /* ---- MINIMAL CSS RESET ----- */
@@ -58,9 +58,9 @@ html {
 		radial-gradient(42% 53% at 15% 94%, #073aff00 5%, #ffffffff 7%),
 		radial-gradient(31% 43% at 7% 98%, #ffffffff 24%, #073aff00 100%),
 		linear-gradient(125deg, #4eb5ffff 1%, #4c00fcff 100%);
-background-repeat: no-repeat;
-background-size: cover;
-min-height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
 }
 p,
 figcaption {
@@ -151,19 +151,19 @@ article > figure > figcaption {
 	text-align: left;
 }
 code {
-    background: #f4f4f4;
-    border: 1px solid #ddd;
-    border-left: 3px solid #fd92f3;
-    color: #592d86; /* slightly darker than rebeccapurple */
-    white-space: pre;
-    width: 100%;
-    overflow-x: scroll;
-    font-family: Courier, monospace;
-    font-size: 15px;
-    line-height: 1.6;
-    display: inline-block;
-    margin-bottom: 1.6em;
-    padding: 1em 1.5em;
+	background: #f4f4f4;
+	border: 1px solid #ddd;
+	border-left: 3px solid #fd92f3;
+	color: #592d86; /* slightly darker than rebeccapurple */
+	white-space: pre;
+	width: 100%;
+	overflow-x: scroll;
+	font-family: Courier, monospace;
+	font-size: 15px;
+	line-height: 1.6;
+	display: inline-block;
+	margin-bottom: 1.6em;
+	padding: 1em 1.5em;
 }
 /* ---------- HEADER ---------- */
 header {
@@ -233,6 +233,9 @@ footer ul li img {
 
 /* ----- MEDIA QUERIES ----- */
 @media only screen and (max-width: 800px) {
+	nav {
+		font-size: 22px;
+	}
 	main {
 		flex-direction: column;
 	}
