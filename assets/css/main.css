@@ -85,6 +85,9 @@ main > div {
 	margin: 1em 2em 1em 2em;
 	max-width: 880px;
 }
+main > div > a {
+  text-decoration: none;
+}
 figure {
 	display: table;
 }
@@ -100,11 +103,12 @@ figcaption {
 }
 
 a {
-	text-decoration: none;
+        text-decoration: underline #000 dashed;
 	color: black;
 }
-a:hover {
+a:hover,a:focus {
 	color: seagreen;
+	background-color: #f7c6fc;
 }
 p {
 	font-size: 24px;
@@ -185,6 +189,10 @@ header > span {
 	font-size: 36px;
 	font-family: mimoid;
 }
+header > span > a {
+	text-decoration: none;
+	background-color: white !important;
+}
 nav {
 	font-family: "Roboto", sans-serif;
 	font-size: 24px;
@@ -195,7 +203,8 @@ nav {
 nav > a {
 	margin: 0.5em;
 	color: black;
-	text-decoration: none;
+	text-decoration: none !important;
+	background-color: white !important;
 }
 
 /* -------- FOOTER --------- */
