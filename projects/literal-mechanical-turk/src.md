@@ -1,0 +1,11 @@
+		<div class="container">
+			<div id="work">
+	<div id="workshops_about">
+<div class="video-container"><iframe width="853" height="480" src="https://www.youtube.com/embed/pZPEulYQnNg" frameborder="0" allowfullscreen></iframe></div>
+
+</br></br>
+The Mechanical Turk was an automaton chess player, a supposed automated chess-playing machine created by Wolfgang von Kempelen that toured throughout Europe in the 18th century until its destruction by fire in 1854. It featured a mechanical human upper body, complete with robot-like head and mechanical arms connected to levers. It played demonstration matches with thousands of players, including Napoleon, Ben Franklin, and European royalty. In the 1820s it was revealed as a hoax. The machine actually concealed a hidden tiny grandmaster inside controlling levers and magnets to move the body and pieces. In 2005 Amazon Mechanical Turk launched, a crowdsourced internet marketplace to hire anonymous internet-connected workers (“Turkers”) to perform “Human Intelligence Tasks” (HIT) difficult for computers but output largely as if they had been performed by machine. Example tasks include entering keywords, responding to surveys, and transcribing audio.
+</br></br>
+In April 2016 I created a task for a chess game with “pawn to e4” feeding in this single opening chess move and requesting a Turker make the next move in the game, and including themselves in the video. The game progressed as I entered my moves, reducing my input to text and a digital chessboard of the current position, with a different Turker responding to each of my moves with their own chess video. In the response videos, it is possible to see into the abstracted-away black box of the Internet, to see through to the living rooms, offices, bedrooms and libraries of Turkers, to a diverse community of people worldwide. The process does not specifically create substantial equity for the participants (who were generally paid on average 80 cents for their services of making a single chess move, in comparison to most tasks that pay a few cents) but it does work (I hope) to present an intimate view into labor on the internet, and to humanize who is on the other end of the digital transaction.
+
+
