@@ -39,7 +39,9 @@ figcaption {
 
 ol,
 ul {
-	list-style: none;
+	list-style: square;
+	list-style-position: inside;
+	margin: 1rem 0;
 }
 
 img {
@@ -122,6 +124,11 @@ h1,
 h2,
 h3 {
 	font-family: mimoid, "Roboto", sans-serif;
+	font-weight: 600;
+}
+h2,
+h3 {
+	margin-top: 1em;
 }
 h1 {
 	font-size: 48px;
@@ -153,6 +160,9 @@ article > h1 {
 }
 article > figure > figcaption {
 	text-align: left;
+}
+ul, li {
+	margin: 0.5rem 0;
 }
 code {
 	background: #f4f4f4;
@@ -199,6 +209,7 @@ nav {
 	font-weight: 400;
 	text-align: right;
 	font-style: normal;
+	display: block;
 }
 nav > a {
 	margin: 0.5em;
@@ -243,7 +254,7 @@ footer ul li img {
 /* ----- MEDIA QUERIES ----- */
 @media only screen and (max-width: 800px) {
 	nav {
-		font-size: 22px;
+		font-size: 18px;
 	}
 	main {
 		flex-direction: column;
